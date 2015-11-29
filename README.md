@@ -10,7 +10,9 @@ Account account = [Select Id, Name From Account Limit 1];
 
 // Call the method to serialize the object
 String xmlString = XmlUtility.serialize(account, 'Account');
-
+```
+Returns:
+```
 // Results
 <Account>
     <attributes>
