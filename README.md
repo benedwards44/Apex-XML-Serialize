@@ -13,7 +13,6 @@ String xmlString = XmlUtility.serialize(account, 'Account');
 ```
 Returns:
 ```
-// Results
 <Account>
     <attributes>
         <type>Account</type>
