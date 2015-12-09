@@ -1,5 +1,5 @@
 # Apex-XML-Serialize
-Utility class for serializing a sObject or Apex Class object to a XML string, or a list of sObjects and Apex Classes.
+Utility class for serializing a single or list of sObjects or Apex Classes object to a XML string. The goal is to mimic functionality of the standard JSON.serialize() method.
 
 ## Usage
 To serialize an object into XML string, call the ```serialize()``` method by passing it the object or list of objects to serialize and the name of the top-level XML wrapper.
