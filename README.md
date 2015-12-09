@@ -2,7 +2,7 @@
 Utility class for serializing a single or list of sObjects or Apex Classes object to a XML string. The goal is to mimic functionality of the standard JSON.serialize() method.
 
 ## Usage
-To serialize an object into XML string, call the ```serialize()``` method by passing it the object or list of objects to serialize and the name of the top-level XML wrapper.
+To serialize an object into XML string, call the ```serialize(objectToSerialize, NameOfTopLevel)``` method by passing it the object or list of objects to serialize and the name of the top-level XML wrapper.
 
 ### Single Object
 ```
